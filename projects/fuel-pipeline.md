@@ -3,8 +3,6 @@ layout: page
 title: Fuel Pipeline
 ---
 
-## Overview
-
 The Fuel Pipeline application was built to model fuel consumption and transfer across the UK government’s fuel pipeline network. The application enables users to calibrate storage facility and pipe parameters, modify network priorities, and run comprehensive what-if scenarios. The tool provides critical insights into network operations, helping to optimise fuel distribution and enhance decision-making processes.
 
 ![Fuel Pipeline Auto Play](/projects/fuel-pipeline/auto-play.gif)

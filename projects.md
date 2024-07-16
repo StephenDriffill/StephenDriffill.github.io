@@ -11,4 +11,6 @@ See each project for a summary of the problem, solution and technologies involve
 
 ### [Amoeba]({{ site.baseurl }}/projects/amoeba)
 
+![Satelitte View](/projects/amoeba/satellite-view.png)
+
 ### [Desk Booking]({{ site.baseurl }}/projects/desk-booking)
