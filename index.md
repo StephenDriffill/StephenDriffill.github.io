@@ -11,7 +11,7 @@ title: Stephen Driffill
 ### Current role building UI-driven web applications in the strategic & logistics domain with **TypeScript**, **Node.js** and **React**.
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 #### See my [Projects]({{ site.baseurl }}/projects) and [About]({{ site.baseurl }}/about) pages to learn more.

@@ -8,7 +8,7 @@ See each project for a summary of the problem, solution and technologies involve
 ---
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 ### [Fuel Pipeline]({{ site.baseurl }}/projects/fuel-pipeline)
@@ -16,13 +16,13 @@ See each project for a summary of the problem, solution and technologies involve
 [![Fuel Pipeline Auto Play](/projects/fuel-pipeline/map.png)]({{ site.baseurl }}/projects/fuel-pipeline)
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 ---
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 ### [Amoeba]({{ site.baseurl }}/projects/amoeba)
@@ -30,13 +30,13 @@ See each project for a summary of the problem, solution and technologies involve
 [![Satelitte View](/projects/amoeba/satellite-view.png)]({{ site.baseurl }}/projects/amoeba)
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 ---
 
 {::nomarkdown}
-</br />
+<br />
 {:/nomarkdown}
 
 ### [Desk Booking]({{ site.baseurl }}/projects/desk-booking)
