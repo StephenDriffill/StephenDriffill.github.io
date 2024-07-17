@@ -7,3 +7,31 @@ $base-font-family: "Inter", sans-serif;;
 p {
   font-size: 18px;
 }
+
+.site-header-content {
+  display: grid;
+  grid-template-columns: 1fr auto auto; 
+  column-gap: 30px;
+}
+.social-links {
+  align-self: center;
+  display: grid;
+}
+.social-media-list {
+  justify-self: center;
+  display: flex;
+  gap: 5px;
+}
+.social-media-link {
+  display: flex;
+  align-self: center;
+}
+.social-media-link .svg-icon {
+  fill: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .site-header-content {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  }
+}
