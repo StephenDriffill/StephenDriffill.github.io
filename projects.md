@@ -5,12 +5,27 @@ title: Projects
 
 See each project for a summary of the problem, solution and technologies involved.
 
+---
+
+<br>
 ### [Fuel Pipeline]({{ site.baseurl }}/projects/fuel-pipeline)
 
-![Fuel Pipeline Auto Play](/projects/fuel-pipeline/map.png)
+[![Fuel Pipeline Auto Play](/projects/fuel-pipeline/map.png)]({{ site.baseurl }}/projects/fuel-pipeline)
 
+<br>
+
+---
+
+<br>
 ### [Amoeba]({{ site.baseurl }}/projects/amoeba)
 
-![Satelitte View](/projects/amoeba/satellite-view.png)
+[![Satelitte View](/projects/amoeba/satellite-view.png)]({{ site.baseurl }}/projects/amoeba)
 
+<br>
+
+---
+
+<br>
 ### [Desk Booking]({{ site.baseurl }}/projects/desk-booking)
+
+[![Floorplan](/projects/desk-booking/floorplan.png)]({{ site.baseurl }}/projects/desk-booking)
