@@ -7,17 +7,25 @@ The Amoeba application was built to generate air and maritime isochrones from an
 
 ![Satelitte View](/projects/amoeba/anti-access-zones.png)
 
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
 ## Problem
 
-The [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection) of the world map can lead to misconceptions about the sizes of and distances between certain parts of the earth. For example: Greenland on a standard world map appears the same size as the continent of Africa, though it is actually nearly 15 times smaller; Iceland is closer as the crow flies to Alaska than it is to Cyprus, since the flight path crosses the North Pole which is heavily distorted and cropped on a map.
+In strategic operational planning and wargamming it is a common requirement to model journey times in what-if scenarios. It is also a common requirement to position a strategic base such as a hospital at a roughly equal journey time to all other bases in theatre. Calculating journey times is not as simple as putting a ruler on a map.
+
+The [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection) of the world map can lead to misconceptions about the sizes of and distances between certain parts of the earth. For example: Greenland on a standard world map appears the same size as the continent of Africa, though it is actually nearly 15 times smaller; Iceland is closer as the crow flies to Alaska than it is to Cyprus, since the flight path crosses the North Pole which is heavily distorted and cropped on the projection.
 
 Additionally the irregular shape, size and distribution of land masses can make a journey many times longer than the line as the crow flies, for example the sailing distance from the Strait of Gibraltar through the North Sea to the coast of Norway is shorter than it is through the Mediterrean to the Black Sea. No fly/sail zones, such as in times of war or conflict, and the closure of canals can alter journey times drastically, as was seen in recent times during the 2021 Suez Canal obstruction.
 
-In stratetic operational planning and wargamming it is a common requirement to model journey times in what-if scenarios. It is also a common requirement to position a strategic base such as a hospital at a roughly equal journey time to all other bases in theatre.
+{::nomarkdown}
+<br />
+{:/nomarkdown}
 
 ## Solution
 
-In 3-4 months the team put together a full stack demonstrator application with rapid isochrone generation for air and sea. Users could pick a starting point on a fullscreen map, input a speed and one or more durations, and quickly generate a set of overlaid isochrones e.g at 1, 2, 5, and 10 days travel by sea.
+In 3-4 months the team put together a full stack demonstrator application with rapid isochrone generation for air and sea. Users could pick a starting point on a fullscreen map, input a speed and one or more durations, and quickly generate a set of overlaid isochrones e.g. for 1, 2, 5, and 10 days travel by sea.
 
 Since the tool would be used to model long journeys lasting several days and potentially covering several continents, the model needed to account for the curvature of the Earth, as well as allowing isochrones to cross the poles.
 
@@ -27,7 +35,11 @@ Significant effort was placed into making the tool easy-to-use with no training 
 
 For maximum flexibility the application included a freehand drawing tool to define no fly/sail zones, as well as the ability to select countries specifically. The ability to open/close canals enabled users to model the impact on journey times if for example the Suez Canal was inaccessile, thus requiring sailing around the entire continent of Africa.
 
-## Technical details
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
+## Technical Details
 
 The application was built in the **Remix** framework with a **Node.js** backend and a **SQLite** database. The map component used tiles from **Esri** and components from **React Leaflet**. The [Intelligence Community Design System](https://design.sis.gov.uk/) was used for most of the remaining UI components, as well as additional **Leaflet** libraries for specific functionality such drawing polygons on the map.
 

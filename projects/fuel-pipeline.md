@@ -7,11 +7,19 @@ The Fuel Pipeline application was built to model fuel consumption and transfer a
 
 ![Fuel Pipeline Auto Play](/projects/fuel-pipeline/auto-play.gif)
 
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
 ## Problem
 
 The Government Pipeline and Storage System (GPSS) is a 2500km network of underground pipes delivering fuel to significant military airfields across the UK as well as civilian airports like Heathrow. Once publically owned, the pipeline is now under private ownership who are contracted by MoD to continue to supply fuel to the connected facilities.
 
 Logistics planners need a way to model the impact of what-if scenarios on the network, such as pipes failing or undergoing periods of maintenance, and facilities having temporary spikes in demand. They also need to find ways to mitigate these impacts and model the time taken for the network to recover.
+
+{::nomarkdown}
+<br />
+{:/nomarkdown}
 
 ## Solution
 
@@ -27,7 +35,11 @@ An autoplay feature was added (see animation above) to show the model output as 
 
 ![Fuel Pipeline Auto Play](/projects/fuel-pipeline/dashboard.png)
 
-## Technical details
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
+## Technical Details
 
 The application was built in the **Remix** framework with a **Node.js** backend and a **PostgreSQL** database. The map component used tiles from **Esri** and components from **React Leaflet**. **MaterialUI** was used for most of the remaining UI components, as well as **Recharts** for charting and **Material React Table** for reports and editable tables.
 

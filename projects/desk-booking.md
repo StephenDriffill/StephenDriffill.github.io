@@ -7,9 +7,17 @@ The Desk Booking application was built as a demonstrator application for employe
 
 ![Floorplan](/projects/desk-booking/booked.png)
 
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
 ## Problem
 
 In an office with hybrid working patterns and/or hotdesking, employees need to be able to book desks ahead of time (or at the last minute) to guarentee a place to work. They need to know where their colleagues are sat to enable collaborative working. Human Resources need to gain insights into office utilisation and whether there are sufficient first aiders and fire marshals in attendance each day. Some users need the ability to book seats for guests. The application needs to be accessible on mobile devices to make a booking or check their booking on the commute into the office.
+
+{::nomarkdown}
+<br />
+{:/nomarkdown}
 
 ## Solution
 
@@ -21,7 +29,11 @@ Desks and bookings were visible both through the floorplan view as well as a fil
 
 Admins had the ability to mark desks as reserved or add key pieces of information to desks such as having a broken USB port that may influence a user's decision to book.
 
-## Technical details
+{::nomarkdown}
+<br />
+{:/nomarkdown}
+
+## Technical Details
 
 The application was built in the **Remix** framework with a **Node.js** backend and a **PostgreSQL** database.
 

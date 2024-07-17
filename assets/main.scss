@@ -1,11 +1,11 @@
 ---
 ---
-$base-font-family: "Inter", sans-serif;;
+$base-font-family: "Inter", sans-serif;
 
 @import "minima";
 
-p {
-  font-size: 18px;
+body {
+  font-size: 18px
 }
 
 .site-header-content {
@@ -31,6 +31,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
   .site-header-content {
     grid-template-columns: repeat(3, minmax(0, 1fr)); 
   }
