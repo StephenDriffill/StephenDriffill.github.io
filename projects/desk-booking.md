@@ -13,7 +13,7 @@ In an office with hybrid working patterns and/or hotdesking, employees need to b
 
 ## Solution
 
-In 2-3 months the team built a fullstack application capable of reuse by any office. The demonstrator was seeded with data relating to the floor plan of their own company office and org structure as well as synthentic data for employees and bookings. The design was responsive to render the booking form as a sidebar on large screens and as a draggable drawer on smaller devices, as well as hiding or compacting less essential content on smaller screens such as utilisation metrics.
+In 2-3 months the team built a full stack application capable of reuse by any office. The demonstrator was seeded with data relating to the floor plan of their own company office and org structure as well as synthentic data for employees and bookings. The design was responsive to render the booking form as a sidebar on large screens and as a draggable drawer on smaller devices, as well as hiding or compacting less essential content on smaller screens such as utilisation metrics.
 
 Desks and bookings were visible both through the floorplan view as well as a filterable list view. Users and admins could manage their own and all bookings respectively via reports. An analytics dashboard showed various KPIs and charts to give insights into how the space was being utilised by roles, teams and individuals.
 
@@ -23,14 +23,14 @@ Admins had the ability to mark desks as reserved or add key pieces of informatio
 
 ## Technical details
 
-The application was built in the Remix framework with a Node.js backend and a PostgreSQL database.
+The application was built in the **Remix** framework with a **Node.js** backend and a **PostgreSQL** database.
 
-The floorplan component was built from a Figma design exported as an SVG. This was overlaid with additional components customised from MaterialUI such as user avatars as well as click handlers to select desks.
+The floorplan component was built from a **Figma** design exported as an SVG. This was overlaid with additional components customised from **MaterialUI** such as user avatars as well as click handlers to select desks.
 
-Charting components were built from Recharts and reports from Material React Table.
+Charting components were built from **Recharts** and reports from **Material React Table**.
 
 Microsoft AAD federated authentication was implemeted for SSO.
 
-Tests were written in Jest and Playwright.
+Tests were written in **Jest** and **Playwright**.
 
-The demonstrator application was deployed to Fly.io via GitHub actions.
+The demonstrator application was deployed to **Fly.io** via **GitHub actions**.
