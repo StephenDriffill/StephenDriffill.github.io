@@ -52,7 +52,7 @@ The demonstrator application was deployed to **Fly.io** via **GitHub actions**.
 {::nomarkdown}
 
 <div class="project-pagination">
-  <div />
-    <a href="{{ site.baseurl }}/projects/amoeba">Amoeba →</a> 
-  </div>
+  <div></div>
+  <a href="{{ site.baseurl }}/projects/amoeba">Amoeba →</a> 
+</div>
 {:/nomarkdown}

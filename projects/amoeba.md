@@ -60,7 +60,7 @@ The demonstrator application was deployed to **Fly.io** via **GitHub actions**.
 {::nomarkdown}
 
 <div class="project-pagination">
-    <a href="{{ site.baseurl }}/projects/fuel-pipeline">← Fuel Pipeline</a> 
-    <a href="{{ site.baseurl }}/projects/desk-booking">Desk Booking →</a> 
-  </div>
+  <a href="{{ site.baseurl }}/projects/fuel-pipeline">← Fuel Pipeline</a> 
+  <a href="{{ site.baseurl }}/projects/desk-booking">Desk Booking →</a> 
+</div>
 {:/nomarkdown}
