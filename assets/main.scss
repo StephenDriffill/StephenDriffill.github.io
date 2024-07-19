@@ -9,9 +9,14 @@ body {
 }
 
 .site-header-content {
+  min-height: 55.95px;
   display: grid;
   grid-template-columns: 1fr auto auto; 
   column-gap: 30px;
+}
+.site-title {
+  display: flex;
+  align-items: center;
 }
 .social-links {
   align-self: center;
