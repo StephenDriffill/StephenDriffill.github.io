@@ -6,7 +6,7 @@ layout: page
 title: Stephen Driffill
 ---
 
-### Software developer with 10 years’ industry experience.
+### **Software developer with 10 years’ industry experience.**
 
 ### Current role building UI-driven web applications in the strategic & logistics domain with **TypeScript**, **Node.js** and **React**.
 
