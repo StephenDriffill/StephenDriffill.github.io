@@ -46,3 +46,11 @@ Microsoft AAD federated authentication was implemeted for SSO.
 Tests were written in **Jest** and **Playwright**.
 
 The demonstrator application was deployed to **Fly.io** via **GitHub actions**.
+
+{::nomarkdown}
+
+<div class="project-pagination">
+    <a href="{{ site.baseurl }}/projects/amoeba">← Amoeba</a> 
+    <div /> 
+  </div>
+{:/nomarkdown}

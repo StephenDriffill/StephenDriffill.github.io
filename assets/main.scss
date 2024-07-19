@@ -39,3 +39,9 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr)); 
   }
 }
+
+.project-pagination {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-top: 30px;
+}

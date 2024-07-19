@@ -48,3 +48,11 @@ The model was written in **TypeScript** and embedded in the application running 
 Tests were written in **Jest** and **Playwright**.
 
 The demonstrator application was deployed to **Fly.io** via **GitHub actions**.
+
+{::nomarkdown}
+
+<div class="project-pagination">
+  <div />
+    <a href="{{ site.baseurl }}/projects/amoeba">Amoeba →</a> 
+  </div>
+{:/nomarkdown}
