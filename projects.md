@@ -3,15 +3,9 @@ layout: page
 title: Projects
 ---
 
-See each project for a summary of the problem, solution and technologies involved.
-
----
-
-{::nomarkdown}
-<br />
-{:/nomarkdown}
-
 ### [Fuel Pipeline]({{ site.baseurl }}/projects/fuel-pipeline)
+
+[A tool to model fuel consumption and transfer across the UK ... →]({{ site.baseurl }}/projects/fuel-pipeline)
 
 [![Fuel Pipeline Auto Play](/projects/fuel-pipeline/map.png)]({{ site.baseurl }}/projects/fuel-pipeline)
 
@@ -27,6 +21,8 @@ See each project for a summary of the problem, solution and technologies involve
 
 ### [Amoeba]({{ site.baseurl }}/projects/amoeba)
 
+[A tool to generate air and maritime isochrones from any point ... →]({{ site.baseurl }}/projects/amoeba)
+
 [![Satelitte View](/projects/amoeba/satellite-view.png)]({{ site.baseurl }}/projects/amoeba)
 
 {::nomarkdown}
@@ -40,5 +36,7 @@ See each project for a summary of the problem, solution and technologies involve
 {:/nomarkdown}
 
 ### [Desk Booking]({{ site.baseurl }}/projects/desk-booking)
+
+[A tool for employees to book a desk in an office and check ... →]({{ site.baseurl }}/projects/desk-booking)
 
 [![Floorplan](/projects/desk-booking/floorplan.png)]({{ site.baseurl }}/projects/desk-booking)
