@@ -13,7 +13,7 @@ The Desk Booking application was built as a demonstrator application for employe
 
 ## Problem
 
-In an office with hybrid working patterns and/or hotdesking, employees need to be able to book desks ahead of time (or at the last minute) to guarentee a place to work. They need to know where their colleagues are sat to enable collaborative working. Human Resources need to gain insights into office utilisation and whether there are sufficient first aiders and fire marshals in attendance each day. Some users need the ability to book seats for guests. The application needs to be accessible on mobile devices to make a booking or check their booking on the commute into the office.
+In an office with hybrid working patterns and hot desking, employees need to book their desk ahead of time (or at the last minute) to guarantee a place to work. They need to know where their colleagues are sat to enable collaborative working. Human Resources need to gain insights into office utilisation and whether there are sufficient first aiders and fire marshals in attendance each day. Some users need the ability to book seats for guests. The application needs to be accessible on mobile devices so that users can make a booking or check their booking on the commute into the office.
 
 {::nomarkdown}
 <br />
@@ -21,7 +21,7 @@ In an office with hybrid working patterns and/or hotdesking, employees need to b
 
 ## Solution
 
-In 2-3 months the team built a full stack application capable of reuse by any office. The demonstrator was seeded with data relating to the floor plan of their own company office and org structure as well as synthentic data for employees and bookings. The design was responsive to render the booking form as a sidebar on large screens and as a draggable drawer on smaller devices, as well as hiding or compacting less essential content on smaller screens such as utilisation metrics.
+In 2-3 months the team built a full stack application capable of reuse by any office. The demonstrator was seeded with data relating to the floor plan of their own company office and org structure, as well as synthetic data for employees and bookings. The design was responsive to render the booking form as a sidebar on large screens and as a draggable drawer on smaller devices, as well as hiding or compacting less essential content on smaller screens such as utilisation metrics.
 
 Desks and bookings were visible both through the floorplan view as well as a filterable list view. Users and admins could manage their own and all bookings respectively via reports. An analytics dashboard showed various KPIs and charts to give insights into how the space was being utilised by roles, teams and individuals.
 
